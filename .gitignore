@@ -1,0 +1,21 @@
+# 依存・ビルド成果物
+node_modules/
+dist/
+build/
+.venv/
+
+# 秘密情報
+.env
+.env.*
+!.env.example
+
+# 個人情報・機密を含むもの、手元だけの記録
+samples/private/
+*.local.*
+*.local
+
+# 確認用の一時ファイル、OS・エディタ
+.DS_Store
+*.log
+.idea/
+.vscode/

@@ -1,0 +1,20 @@
+{
+  "note": "実例集の書式の例。実際の内容は samples.json に書く。期待値は、現実の状態が変わると、ずれることがある（checkedAt の日の状態）",
+  "items": [
+    {
+      "id": "example-001",
+      "kind": "種類A",
+      "expected": { "status": "ok", "value": 1980 },
+      "checkedAt": "YYYY-MM-DD",
+      "raw": "raw/example-001.html",
+      "note": "なぜこの実例を入れたか。ずれやすい点があれば書く"
+    },
+    {
+      "id": "example-002",
+      "kind": "種類B",
+      "expected": { "status": "unavailable" },
+      "checkedAt": "YYYY-MM-DD",
+      "note": "生データは置かない（ID と期待値だけで足りる）"
+    }
+  ]
+}
